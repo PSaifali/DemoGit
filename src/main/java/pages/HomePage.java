@@ -28,6 +28,8 @@ public class HomePage {
 		By SearchDropDown =By.xpath("//select[@id='searchDropdownBox']");
 		By MenuLinksList = By.xpath("//div[@id='nav-xshop']//following::a[contains(@data-csa-c-slot-id,'nav')]");
 		
+		By MEnuLinkList2 = By.xpath("");
+		
 		//MenuLinkList();
 		linkScroll();
 		multipleWindowHandling();
